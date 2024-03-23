@@ -1,0 +1,191 @@
+*{ box-sizing: border-box; }
+
+body{
+    font-family: "Dosis", sans-serif;
+    background: url("../img/background.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    background: #f9f9f9;
+}
+
+/* HEADER */
+.main-header{
+    background: #fff;
+    padding: 20px 50px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .menu ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .menu  a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ddd;
+    padding: 8px;
+}
+
+.main-header .menu  a:hover{
+    background: #f1f3f3;
+    color: #ccc;
+}
+
+
+/* FREELO */
+
+.freelo{
+    padding: 20px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.freelo h1{
+    width: 32%;
+    background: #434949;
+    color: #fff;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    padding: 67px 0;
+}
+
+.freelo p{
+    width: 66%;
+    background: #7bc5a6;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 48px;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    padding: 0 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio .item{
+    height: 360px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.portfolio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.portfolio .w32{
+    width: 32%;
+}
+
+.portfolio .w66{
+    width: 66%;
+}
+
+.portfolio .h740{
+    height: 740px;
+}
+
+.portfolio .item:hover img{
+    transform: scale(1.5);
+}
+
+/* CONCLUSION */
+.conclusion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+
+.conclusion .bulb{
+    width: 32%;
+    height: 180px;
+}
+
+.conclusion .bulb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.conclusion .citation{
+    width: 66%;
+    background: #434949;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 46px 20px;
+}
+
+/* PREFOOTER */
+.pre-footer{
+    padding: 0 50px;
+    background: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-footer .hey,
+.pre-footer .tweet{
+    width: 50%;
+}
+
+.pre-footer .tweet h2{
+    color: #7bc5a6;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pre-footer .tweet a{
+    display: block;
+    color: #7bc5a6;
+    margin-bottom: 10px;
+}
+
+.pre-footer .tweet a:hover{
+    color: #58b58e;
+}
+
+
+/* MAIN FOOTER */
+.main-footer{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-footer a {
+  color: #7bc5a6;
+}
+.main-footer a:hover {
+  color: #58b58e;
+}
